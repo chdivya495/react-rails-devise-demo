@@ -15,11 +15,25 @@ git clone https://github.com/chdivya495/react-rails-devise-demo.git
 # SSH
 git clone git@github.com:chdivya495/react-rails-devise-demo.git
 
+Commmands to run
+============================================================================================
 run
-`bundle install`
-`rake db:create`
-`rake db:migrate`
-`rails s`
+
+Go To Root Folder
+`cd react-rails-devise-demo`
+
+To run the backend server
+`cd api/react-rails-devise-demo`
+`bin/setup`
+
+To run the frontend server
+`cd frontend/react-rails-devise-demo`
+`yarn install && yarn start`
+
+Open Browser
+http://localhost:5000 Frontend server
+http://localhost:3000 Backend server
+============================================================================================
 
 API Request For Signup
 
