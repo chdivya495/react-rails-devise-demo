@@ -5,29 +5,30 @@
 #   git config --global core.excludesfile '~/.gitignore_global'
 
 # Ignore bundler config.
-/.bundle
+/api/react-rails-devise-demo/.bundle
 
 # Ignore the default SQLite database.
-/db/*.sqlite3
-/db/*.sqlite3-*
+/api/react-rails-devise-demo/db/*.sqlite3
+/api/react-rails-devise-demo/db/*.sqlite3-*
 
 # Ignore all logfiles and tempfiles.
-/log/*
-/tmp/*
-!/log/.keep
-!/tmp/.keep
+/api/react-rails-devise-demo/log/*
+/api/react-rails-devise-demo/tmp/*
+!/api/react-rails-devise-demo/log/.keep
+!/api/react-rails-devise-demo/tmp/.keep
 
 # Ignore pidfiles, but keep the directory.
-/tmp/pids/*
-!/tmp/pids/
-!/tmp/pids/.keep
+/api/react-rails-devise-demo/tmp/pids/*
+!/api/react-rails-devise-demo/tmp/pids/
+!/api/react-rails-devise-demo/tmp/pids/.keep
 
 # Ignore uploaded files in development.
-/storage/*
-!/storage/.keep
-/tmp/storage/*
-!/tmp/storage/
-!/tmp/storage/.keep
-
+/api/react-rails-devise-demo/storage/*
+!/api/react-rails-devise-demo/storage/.keep
+/api/react-rails-devise-demo/tmp/storage/*
+!/api/react-rails-devise-demo/tmp/storage/
+!/api/react-rails-devise-demo/tmp/storage/.keep
+/api/react-rails-devise-demo/tmp/*
 # Ignore master key for decrypting credentials and more.
-/config/master.key
+/api/react-rails-devise-demo/config/master.key
+/frontend/react-rails-devise-demo/node_modules/*
